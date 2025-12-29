@@ -1,0 +1,48 @@
+{
+  "warning_seconds": 2.0,
+  "line_a": {
+    "name": "BANNED_LANE",
+    "pts": [
+      [
+        1093,
+        626
+      ],
+      [
+        1161,
+        614
+      ]
+    ],
+    "direction_rule": "neg_to_pos_is_in",
+    "violation_direction": "ANY"
+  },
+  "line_b": {
+    "name": "OPPOSING_FLOW",
+    "pts": [
+      [
+        1258,
+        525
+      ],
+      [
+        575,
+        530
+      ]
+    ],
+    "direction_rule": "neg_to_pos_is_in",
+    "count_direction": "IN"
+  },
+  "line_c": {
+    "name": "BLUE_RESTRICTED",
+    "color": "blue",
+    "pts": [
+      [
+        664,
+        727
+      ],
+      [
+        446,
+        703
+      ]
+    ],
+    "direction_rule": "neg_to_pos_is_in"
+  }
+}
